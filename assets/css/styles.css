@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.btn-container {
+  background-color: #111;
+  padding: 4px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 235.38px;
+  height: 102px;
+  border-radius: 59px;
+}
+.btn-container img {
+  width: 100%;
+  height: 100%;
+}
+.btn-container .btn-click {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  top: 0px;
+  z-index: 1;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=styles.css.map */
